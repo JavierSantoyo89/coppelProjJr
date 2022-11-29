@@ -18,12 +18,13 @@ app.use(express.urlencoded({ extended: false})); // convierte el form a objeto l
 app.use(express.json()); // convierte a JSON
 
 // ------- Variables de rutas ------- //
-// ------- Variables de rutas ------- //
 const routes = require('./routers/main');
 const routerProduct = require('./routers/products');
 const { log } = require('console');
 const req = require('express/lib/request');
 
+app.use('/',routes);
+app.use('/products',routerProduct);
 
 // ------- Cadena de ruta para error 404 ------- //
 app.use((req,res,next)=>{

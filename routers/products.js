@@ -7,3 +7,5 @@ const router = express.Router();
 
 // ---- Rutas dedicadas para navegacion general ---- //
 router.get('/',mainController.products);
+
+module.exports = router;
