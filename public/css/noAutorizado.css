@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+  }
+
+#notFound-Body{
+    background-image:url('../img/COPPEL-not-found.png');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+         -moz-background-size: cover;
+         -webkit-background-size: cover;
+         -o-background-size: cover;
+}
+
+
