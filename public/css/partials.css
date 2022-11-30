@@ -1,0 +1,50 @@
+/* ------------- CSS general de los partials ------------- */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: brown;
+}
+
+/* ------------- CSS Header ------------- */
+
+
+/* header{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+     
+} */
+header div { 
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+#logo{
+    width: 15vw;
+    height: 10vh;
+}
+
+#userIcon{
+    width: 4vw;
+    height: 6vh;
+}
+
+#cartIcon{
+    width: 4vw;
+    height: 6vh;
+} 
+
+/* ------------- CSS Banner ------------- */
+
+
+/* ------------- CSS Footer ------------- */
