@@ -6,12 +6,13 @@ const path = require('path');
 //const Op = Sequelize.Op;
 
 const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
-//let db =require('../data/models') //---- Manda llamar la base de datos ----//
+let db =require('../data/models') //---- Manda llamar la base de datos ----//
 
 
 const productsController = {
     products: (req,res) =>{
         res.render('products')
+        //console.log(db);
     }
 }
 
